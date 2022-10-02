@@ -1,7 +1,9 @@
 const openBtn = document.querySelector(".js-card-opener");
-const buttons = document.querySelector(".botones");
+const buttons = document.querySelectorAll(".botones a");
 
 openBtn.onclick = function () {
   document.body.classList.toggle("open");
-  buttons.classList.toggle("show")
+  buttons.forEach(button => {
+    button.classList.toggle("show")
+  })
 };
