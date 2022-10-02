@@ -117,7 +117,7 @@ h3 {
 .card__panel--inside-right__text {
   transform: translateY(-80%);
 }
-@media (min-width: 768px) {
+@media (max-width: 768px) {
   .card__panel--inside-right__text {
     transform: translateY(-70%);
   }
