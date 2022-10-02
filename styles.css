@@ -115,7 +115,12 @@ h3 {
   width: 100%;
 }
 .card__panel--inside-right__text {
-  transform: translateY(-90%);
+  transform: translateY(-80%);
+}
+@media (min-width: 768px) {
+  .card__panel--inside-right__text {
+    transform: translateY(-70%);
+  }
 }
 .card__panel--inside-right__text h3 {
   font-family: "Courgette", cursive;
